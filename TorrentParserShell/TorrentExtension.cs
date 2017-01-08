@@ -25,9 +25,9 @@ namespace TorrentParser
         {
             if (System.Globalization.CultureInfo.CurrentCulture.IetfLanguageTag.StartsWith("zh", StringComparison.OrdinalIgnoreCase))
             {
-                InfoText = "複製磁力鏈接";
-                LInfoText = "複製磁力鏈接（帶Tracker）";
-                CopyFail = "解析磁力鏈接失敗！";
+                InfoText = "複製磁力連結";
+                LInfoText = "複製磁力連結（帶Tracker）";
+                CopyFail = "解析磁力連結失敗！";
             }
             else
             {
